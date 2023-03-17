@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1130px){
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 485px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navRight{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }  
+    .logo{
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        right:20px;
+        display: block;
+
+    }
+    .logo img{
+        width: 70px;
+        height: auto;
+        margin-top: 10px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 70px;   
+    }
+    .v-class-resp{
+        visibility: hidden;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .secondHalf{
+        width: 41%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .form{
+        max-width: 300px;
+        }
+}
+@media only screen and (max-width: 690px){
+    .box-main{
+        height: 80%;
+    }
+    .secondHalf{
+        width: 54%;
+    }
+}
+@media only screen and (max-width: 515px){
+    .box-main{
+        height: 100%;
+        
+    }
+    .secondHalf{
+        width: 80%;
+    
+    }
+}
+@media only screen and (max-width: 335px){
+    .thumbnail img{
+        width: 285px;   
+    }
+    .paras{
+        padding: 0px 25px;
+    }
+    .secondHalf{
+        width: 96%;
+    
+    }
+
+}
